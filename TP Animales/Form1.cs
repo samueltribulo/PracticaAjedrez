@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClasesAnimales;
 
 namespace TP_Animales
 {
@@ -15,6 +16,11 @@ namespace TP_Animales
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnCrearLeon_Click(object sender, EventArgs e)
+        {
+            Leon samu = new Leon()
         }
     }
 }

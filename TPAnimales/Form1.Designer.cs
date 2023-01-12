@@ -1,16 +1,16 @@
-﻿namespace TP_Animales
+﻿namespace TPAnimales
 {
     partial class Form1
     {
         /// <summary>
-        /// Variable del diseñador necesaria.
+        ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Limpiar los recursos que se estén usando.
+        ///  Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,11 +20,11 @@
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de Windows Forms
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -35,9 +35,9 @@
             // 
             // btnCrearLeon
             // 
-            this.btnCrearLeon.Location = new System.Drawing.Point(333, 92);
+            this.btnCrearLeon.Location = new System.Drawing.Point(314, 119);
             this.btnCrearLeon.Name = "btnCrearLeon";
-            this.btnCrearLeon.Size = new System.Drawing.Size(112, 42);
+            this.btnCrearLeon.Size = new System.Drawing.Size(105, 33);
             this.btnCrearLeon.TabIndex = 0;
             this.btnCrearLeon.Text = "Crear Leon";
             this.btnCrearLeon.UseVisualStyleBackColor = true;
@@ -45,25 +45,27 @@
             // 
             // btnCrearLoro
             // 
-            this.btnCrearLoro.Location = new System.Drawing.Point(333, 178);
+            this.btnCrearLoro.Location = new System.Drawing.Point(314, 189);
             this.btnCrearLoro.Name = "btnCrearLoro";
-            this.btnCrearLoro.Size = new System.Drawing.Size(112, 42);
+            this.btnCrearLoro.Size = new System.Drawing.Size(105, 33);
             this.btnCrearLoro.TabIndex = 1;
             this.btnCrearLoro.Text = "Crear Loro";
             this.btnCrearLoro.UseVisualStyleBackColor = true;
+            this.btnCrearLoro.Click += new System.EventHandler(this.btnCrearLoro_Click);
             // 
             // btnCrearConejo
             // 
-            this.btnCrearConejo.Location = new System.Drawing.Point(333, 263);
+            this.btnCrearConejo.Location = new System.Drawing.Point(314, 266);
             this.btnCrearConejo.Name = "btnCrearConejo";
-            this.btnCrearConejo.Size = new System.Drawing.Size(112, 42);
+            this.btnCrearConejo.Size = new System.Drawing.Size(105, 33);
             this.btnCrearConejo.TabIndex = 2;
             this.btnCrearConejo.Text = "Crear Conejo";
             this.btnCrearConejo.UseVisualStyleBackColor = true;
+            this.btnCrearConejo.Click += new System.EventHandler(this.btnCrearConejo_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnCrearConejo);
@@ -77,9 +79,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnCrearLeon;
-        private System.Windows.Forms.Button btnCrearLoro;
-        private System.Windows.Forms.Button btnCrearConejo;
+        private Button btnCrearLeon;
+        private Button btnCrearLoro;
+        private Button btnCrearConejo;
     }
 }
-
